@@ -1,0 +1,97 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>戦国生活クイズ</title>
+<meta name="description" content="戦国飯・武器価格・貨幣価値・茶器など戦国時代の生活クイズ">
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Adsense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8398161859137802"
+crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<header>
+<h1 id="title">戦国生活クイズ</h1>
+<p id="desc">
+戦国時代の食事・お金・武器・労働・茶器などを当てる歴史クイズ
+</p>
+</header>
+
+<nav id="menu"></nav>
+
+<div class="layout">
+
+  <!-- 左広告 -->
+  <aside class="ad-side">
+
+    <!-- UIゲーム -->
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-8398161859137802"
+      data-ad-slot="6325875393"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+
+  </aside>
+
+  <main class="quiz-box">
+
+    <div class="status">
+      <span id="count">1 / 50</span>
+      <span id="score">スコア:0</span>
+    </div>
+
+    <div class="progress">
+      <div id="bar"></div>
+    </div>
+
+    <h2 id="question">読み込み中...</h2>
+
+    <div id="choices"></div>
+
+    <p id="result"></p>
+
+  </main>
+
+  <!-- 右広告 -->
+  <aside class="ad-side">
+
+    <!-- UIゲーム -->
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-8398161859137802"
+      data-ad-slot="6325875393"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+
+  </aside>
+
+</div>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<!-- データ -->
+<script src="data/sengoku-food.js"></script>
+<script src="data/weapon-price.js"></script>
+<script src="data/black-work.js"></script>
+<script src="data/torture.js"></script>
+<script src="data/armor-weight.js"></script>
+<script src="data/life-span.js"></script>
+<script src="data/money-value.js"></script>
+<script src="data/tea.js"></script>
+
+<!-- 本体 -->
+<script src="script.js"></script>
+
+</body>
+</html>
